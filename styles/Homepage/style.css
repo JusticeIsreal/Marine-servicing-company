@@ -261,7 +261,7 @@
   align-items: center;
   flex-direction: row;
   border-radius: 10px;
-  background: #4169e1;
+  background: #6e89da;
   width: 100%;
   margin: 0 auto;
 }
@@ -279,7 +279,7 @@
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click {
   text-align: center;
   margin: 5px;
-  color: #f4f5fa;
+  color: white;
   padding: 5px;
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click p {
@@ -312,7 +312,7 @@
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
   font-size: 40px;
-  color: #f4f5fa;
+  color: white;
   margin: 5px;
   font-weight: bolder;
   cursor: pointer;
@@ -324,4 +324,46 @@
   .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
     font-size: 70px;
   }
+}
+
+.client-main-con {
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  max-width: 900px;
+}
+@media only screen and (min-width: 768px) {
+  .client-main-con {
+    margin-top: 50px;
+  }
+}
+.client-main-con h1 {
+  font-size: 20px;
+  color: #444;
+}
+@media only screen and (min-width: 768px) {
+  .client-main-con h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .client-main-con h1 {
+    font-size: 40px;
+  }
+}
+.client-main-con h1 span {
+  color: #4169e1;
+}
+.client-main-con .client-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.client-main-con .client-logo .img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
