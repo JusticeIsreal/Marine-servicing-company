@@ -355,9 +355,10 @@ $bg-blue: #4169e1;
   margin-top: 100px;
   text-align: center;
   max-width: 1200px;
-
+  display: none;
   @include responsive(bigphone) {
     margin-top: 50px;
+    display: block;
   }
 
   h1 {
@@ -381,7 +382,7 @@ $bg-blue: #4169e1;
     margin-top: 20px;
 
     .img {
-    //   border: 2px solid red;
+      //   border: 2px solid red;
       object-fit: contain;
       margin: 5px;
       width: 22%;
