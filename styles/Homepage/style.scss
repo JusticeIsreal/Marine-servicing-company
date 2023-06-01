@@ -112,7 +112,7 @@ $bg-blue: #4169e1;
     }
 
     .navbar {
-    //   border: 2px solid rgb(0, 55, 255);
+      //   border: 2px solid rgb(0, 55, 255);
       background: $bg-light;
       overflow: hidden;
       height: 0;
@@ -181,7 +181,7 @@ $bg-blue: #4169e1;
 
 // BANNER STYLE
 .banner-main-con {
-//   border: 2px solid red;
+  //   border: 2px solid red;
   background: black;
 
   .carousel-main-con {
@@ -503,7 +503,7 @@ $bg-blue: #4169e1;
   margin-top: 100px;
   background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
-  height: 720px;
+  //   height: 720px;
   //   background: $bg-blue;
 
   @include responsive(bigphone) {
@@ -535,11 +535,11 @@ $bg-blue: #4169e1;
   .services {
     // border: 2px solid red;
     padding: 5px;
-    width: 95%;
+    // width: 95%;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-    background: $bg-light;
+    background: #00000046;
 
     @include responsive(bigphone) {
       padding: 15px;
@@ -548,21 +548,26 @@ $bg-blue: #4169e1;
       margin-top: 70px;
     }
     .services-grid-con {
+      //   border: 2px solid red;
       @include flexDisplay(space-evenly, center, row);
       flex-wrap: wrap;
       margin: 10px 0;
       .services-grid {
-        border: 1px solid $bg-blue;
+        border: 1px solid $bg-light;
         padding: 5px;
-        width: 43%;
+        width: 100%;
+        // height: 200px;
         margin: 5px;
         text-align: center;
+        @include responsive(bigphone) {
+          width: 45%;
+        }
         @include responsive(tablet) {
           width: 30%;
         }
         img {
           width: 100%;
-          height: 100px;
+          //   height: 200px;
           @include responsive(bigphone) {
             height: 200px;
           }

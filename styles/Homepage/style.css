@@ -496,7 +496,6 @@
   margin-top: 100px;
   background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
-  height: 720px;
 }
 @media only screen and (min-width: 768px) {
   .home-services-main-con {
@@ -534,11 +533,10 @@
 }
 .home-services-main-con .services {
   padding: 5px;
-  width: 95%;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
-  background: #f4f5fa;
+  background: rgba(0, 0, 0, 0.2745098039);
 }
 @media only screen and (min-width: 768px) {
   .home-services-main-con .services {
@@ -559,11 +557,16 @@
   margin: 10px 0;
 }
 .home-services-main-con .services .services-grid-con .services-grid {
-  border: 1px solid #4169e1;
+  border: 1px solid #f4f5fa;
   padding: 5px;
-  width: 43%;
+  width: 100%;
   margin: 5px;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .home-services-main-con .services .services-grid-con .services-grid {
+    width: 45%;
+  }
 }
 @media only screen and (min-width: 1023px) {
   .home-services-main-con .services .services-grid-con .services-grid {
@@ -572,7 +575,6 @@
 }
 .home-services-main-con .services .services-grid-con .services-grid img {
   width: 100%;
-  height: 100px;
 }
 @media only screen and (min-width: 768px) {
   .home-services-main-con .services .services-grid-con .services-grid img {

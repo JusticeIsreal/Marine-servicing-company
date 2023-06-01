@@ -29,7 +29,7 @@ function Aboutus() {
       </div>
       <div className="lower-part">
         <Image
-          src="/abt.jpg"
+          src="/abt.jpeg"
           alt="img"
           width={350}
           height={300}
