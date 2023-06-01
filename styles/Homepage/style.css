@@ -373,6 +373,7 @@
   -o-object-fit: contain;
      object-fit: contain;
   margin: 5px;
+  width: 22%;
 }
 
 .homeabout-main-con {
