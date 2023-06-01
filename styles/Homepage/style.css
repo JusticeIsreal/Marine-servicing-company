@@ -370,7 +370,6 @@
   margin-top: 20px;
 }
 .client-main-con .client-logo .img {
-  border: 2px solid red;
   -o-object-fit: contain;
      object-fit: contain;
   margin: 5px;
