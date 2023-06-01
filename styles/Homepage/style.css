@@ -81,10 +81,12 @@
   background: #f4f5fa;
   overflow: hidden;
   height: 0;
-  width: 100%;
+  right: -8px !important;
+  width: 100vw;
   max-width: 800px;
   position: absolute;
   top: 50px;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;

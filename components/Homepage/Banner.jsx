@@ -8,7 +8,6 @@ import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 function Banner() {
-  console.log(BannerImg);
   return (
     <div className="banner-main-con">
       <div className="content">

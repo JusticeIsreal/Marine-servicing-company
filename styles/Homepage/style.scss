@@ -66,9 +66,10 @@ $bg-blue: #4169e1;
 
 // NAVBAR
 .main-nav {
-//   position: absolute;
+  //   position: absolute;
   width: 100%;
   z-index: 20;
+
   .navbar-main-con {
     background: $bg-light;
     margin: 0 auto;
@@ -111,15 +112,16 @@ $bg-blue: #4169e1;
     }
 
     .navbar {
-      //   border: 2px solid rgb(0, 55, 255);
+    //   border: 2px solid rgb(0, 55, 255);
       background: $bg-light;
       overflow: hidden;
       height: 0;
-      width: 100%;
+      right: -8px !important;
+      width: 100vw;
       max-width: 800px;
       position: absolute;
       top: 50px;
-      //   z-index: 2;
+      z-index: 2;
       @include flexDisplay(center, center, column);
 
       @include responsive(bigphone) {
@@ -179,7 +181,7 @@ $bg-blue: #4169e1;
 
 // BANNER STYLE
 .banner-main-con {
-  //   border: 2px solid red;
+//   border: 2px solid red;
   background: black;
 
   .carousel-main-con {
@@ -712,7 +714,7 @@ $bg-blue: #4169e1;
   .ad-img {
     @include flexDisplay(space-between, center, row);
     position: relative;
-   
+
     p {
       color: $bg-blue;
       text-align: left;
