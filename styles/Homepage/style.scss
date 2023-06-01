@@ -499,10 +499,10 @@ $bg-blue: #4169e1;
 // SERVICES
 .home-services-main-con {
   margin-top: 100px;
-    background: url(/services.jpeg) no-repeat fixed center center;
+  background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
   height: 720px;
-//   background: $bg-blue;
+  //   background: $bg-blue;
 
   @include responsive(bigphone) {
     height: 1030px;
@@ -537,8 +537,8 @@ $bg-blue: #4169e1;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-
     background: $bg-light;
+
     @include responsive(bigphone) {
       padding: 15px;
     }
@@ -569,6 +569,121 @@ $bg-blue: #4169e1;
         &:hover {
           transform: scale(0.9);
         }
+      }
+    }
+  }
+}
+
+// BENEFIT
+.benefit-main-con {
+//   border: 2px solid red;
+  margin-top: 20px;
+  padding: 20px 5px;
+  background: white;
+
+
+  .benefit-con {
+    @include flexDisplay(space-evenly, center, row);
+    flex-wrap: wrap;
+
+    .benefit-first-con {
+      width: 100%;
+      max-width: 500px;
+      @include responsive(bigphone) {
+        // border: 2px solid red;
+        margin-top: -170px;
+        width: 50%;
+      }
+      h1 {
+        font-size: 30px;
+        color: $bg-blue;
+        padding: 10px 0;
+        // max-width: 300px;
+        @include responsive(bigphone) {
+          font-size: 40px;
+        }
+        @include responsive(desktop) {
+          font-size: 50px;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        font-size: 15px;
+        // max-width: 500px;
+
+        @include responsive(bigphone) {
+          //   max-width: 300px;
+        }
+      }
+
+      .btn {
+        div {
+          @include flexDisplay(center, center, row);
+          background: $bg-blue;
+          height: 40px;
+          width: 100px;
+          margin-top: 20px;
+          padding: 5px;
+          color: $bg-light;
+
+          &:hover {
+            background: $bg-light;
+            color: $bg-blue;
+            border: 1px solid $bg-blue;
+          }
+        }
+      }
+    }
+
+    .benefit-second-con {
+    //   border: 2px solid red;
+      padding: 20px 0;
+      margin-top: 20px;
+      @include flexDisplay(center, center, row);
+      flex-wrap: wrap;
+      @include responsive(bigphone) {
+        width: 50%;
+        max-width: 600px;
+        margin-top: 170px;
+      }
+      .benefit {
+        width: 45%;
+        padding: 10px;
+        @include flexDisplay(center, center, row);
+
+        img {
+          width: 40px;
+
+          @include responsive(tablet) {
+            width: 100px;
+          }
+        }
+
+        .detail {
+          h3 {
+            font-size: 15px;
+            color: $bg-dark-gray;
+            @include responsive(tablet) {
+              font-size: 20px;
+            }
+          }
+          p {
+            font-size: 10px;
+            columns: $font-light;
+
+            @include responsive(tablet) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .benefit1 {
+        border-bottom: 1px solid gray;
+      }
+      .benefit2 {
+        border-right: 1px solid gray;
       }
     }
   }
