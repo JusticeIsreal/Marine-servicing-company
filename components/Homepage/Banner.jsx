@@ -45,10 +45,10 @@ function Banner() {
 
                       <div className="contact">
                         <div className="contact-ions">
-                          {/* <div className="click">
+                          <div className="click">
                             <p>Click</p>
                             <ImPointRight className="icon" />
-                          </div> */}
+                          </div>
                           <FiPhone className="icons" />
                           <MdOutlineEmail className="icons" />
                           <FaWhatsapp className="icons" />

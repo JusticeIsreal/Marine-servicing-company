@@ -15,12 +15,12 @@ const BannerImg = [
     txt: "Haulage",
   },
   {
-    id: 3,
+    id: 4,
     img: "/banner2.jpg",
     txt: "Chandeling",
   },
   {
-    id: 4,
+    id: 5,
     img: "/security.jpg",
     txt: "Security",
   },
