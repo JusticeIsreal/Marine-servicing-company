@@ -66,7 +66,7 @@ $bg-blue: #4169e1;
 
 // NAVBAR
 .main-nav {
-  position: absolute;
+//   position: absolute;
   width: 100%;
   z-index: 20;
   .navbar-main-con {
@@ -712,9 +712,7 @@ $bg-blue: #4169e1;
   .ad-img {
     @include flexDisplay(space-between, center, row);
     position: relative;
-    .backquote {
-      //   padding: 0;
-    }
+   
     p {
       color: $bg-blue;
       text-align: left;
