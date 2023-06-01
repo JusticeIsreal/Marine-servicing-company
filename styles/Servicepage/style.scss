@@ -64,7 +64,7 @@ $bg-blue: #4169e1;
   }
 }
 
-.about-banner {
+.service-banner {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -77,100 +77,5 @@ $bg-blue: #4169e1;
   h1 {
     font-weight: normal;
     color: $bg-light;
-  }
-}
-.body-main-con {
-  max-width: 1200px;
-  //   padding: 10px;
-  margin: 0 auto;
-  margin-top: 50px;
-  h5 {
-    font-weight: normal;
-    color: $bg-blue;
-    span {
-      font-size: 20px;
-      color: $bg-dark-gray;
-    }
-  }
-
-  .logo {
-    width: 100%;
-    max-width: 800px;
-
-    padding: 50px 0;
-    margin: 0 auto;
-    padding-bottom: 20px;
-
-    img {
-      width: 100%;
-    }
-  }
-  h1 {
-    // border: 2px solid red;
-    font-weight: normal;
-    color: $bg-blue;
-    margin-top: 30px;
-    font-size: 30px;
-    padding-bottom: 20px;
-    width: fit-content;
-    border-bottom: 5px solid $bg-blue;
-  }
-  p {
-    color: $font-light;
-    margin-top: 15px;
-    line-height: 1.5;
-  }
-  .upper-part {
-    margin-top: 20px;
-    padding: 10px;
-
-    @include responsive(bigphone) {
-      padding: 20px;
-    }
-  }
-  .lower-part {
-    margin-top: 20px;
-    padding: 10px;
-
-    @include responsive(bigphone) {
-      padding: 20px;
-    }
-  }
-  .design-side {
-    // border: 2px solid red;
-    background: $bg-blue;
-    margin-top: 20px;
-    div {
-      padding: 10px;
-      @include responsive(bigphone) {
-        padding: 20px;
-      }
-    }
-    .bg-image1 {
-      background: $bg-blue;
-      width: 100%;
-    }
-    .bg-image2 {
-      background: $bg-blue;
-      transform: rotateZ(180deg);
-      width: 100%;
-      margin-bottom: -7px;
-    }
-    h1 {
-      color: $bg-light;
-      border-bottom: 5px solid $bg-light;
-    }
-    p {
-      color: #ffffffa7;
-    }
-
-    ol {
-      margin-left: 20px;
-
-      li {
-        line-height: 2;
-        color: #ffffffa7;
-      }
-    }
   }
 }

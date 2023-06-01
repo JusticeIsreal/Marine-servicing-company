@@ -20,8 +20,8 @@
 
 .about-banner {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   background: url(/banner3.jpg) no-repeat fixed center center;
   background-size: cover;
