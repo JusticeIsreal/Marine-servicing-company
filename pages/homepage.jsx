@@ -6,6 +6,7 @@ import Clients from "@/components/Homepage/Clients";
 import Services from "@/components/Homepage/Services";
 import Testimony from "@/components/Homepage/Testimony";
 import Navbar from "@/components/Navbar";
+import Newsletter from "@/components/Newsletter";
 import React from "react";
 
 function me() {
@@ -18,6 +19,7 @@ function me() {
       <Services />
       <Benefits />
       <Testimony />
+      <Newsletter />
       <Footer />
     </div>
   );

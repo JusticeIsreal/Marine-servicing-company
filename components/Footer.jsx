@@ -1,8 +1,80 @@
-import React from 'react'
+import React from "react";
+import { RiFacebookLine, RiTwitterLine } from "react-icons/ri";
+import {
+  AiOutlineYoutube,
+  AiOutlineInstagram,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import Link from "next/link";
 
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div className="footer-main-con">
+      <div className="footer-con">
+        <div className="top-con">
+          <div className="img-con">
+            <img src="/wholelogo.png" alt="img" />
+          </div>
+          <p>RSO/Shipping/Marine/Procurement/Logistics</p>
+          <div className="icon-con">
+            <RiFacebookLine className="icon" />
+            <AiOutlineYoutube className="icon" />
+            <AiOutlineInstagram className="icon" />
+            <RiTwitterLine className="icon" />
+            <AiOutlineWhatsApp className="icon" />
+          </div>
+        </div>
+        <div className="lower-con">
+          <div className="quick-link">
+            <h3>Navigate</h3>
+            <Link href="/" className="links">
+              Home
+            </Link>
+            <Link href="/" className="links">
+              About
+            </Link>
+            <Link href="/" className="links">
+              Services
+            </Link>
+            <Link href="/" className="links">
+              Our Team
+            </Link>
+            <Link href="/" className="links">
+              Contact
+            </Link>
+          </div>
+
+          <div className="quick-link">
+            <h3>Other Links</h3>
+            <Link href="/Admin/Login" className="links">
+              Company profile
+            </Link>
+            <Link href="/Admin/Login" className="links">
+              Company policy
+            </Link>
+          </div>
+          <div className="quick-link">
+            <h3>Contact</h3>
+            <p className="links">
+              <b>E-mail Address: </b> calmwatersltd@gmail.com.
+            </p>
+            <p className="links">
+              <b>Physical Address:</b> 2237, Joseph Orru Street, Unity Estate,
+              Festac Town, Lagos, Nigeria
+            </p>
+            <p className="links">(+234) 803 465 2594</p>
+            <p className="links">(+234) 803 968 8200</p>
+          </div>
+        </div>
+      </div>
+      <div className="copyright">
+        <p>
+          Copyright © Calm waters ltd {new Date().getFullYear()}. All Rights
+          Reserved.
+        </p>
+      </div>
+    </div>
+  );
 }
 
-export default Footer
-
+export default Footer;

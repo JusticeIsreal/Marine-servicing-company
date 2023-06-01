@@ -576,11 +576,10 @@ $bg-blue: #4169e1;
 
 // BENEFIT
 .benefit-main-con {
-//   border: 2px solid red;
+  //   border: 2px solid red;
   margin-top: 20px;
   padding: 20px 5px;
   background: white;
-
 
   .benefit-con {
     @include flexDisplay(space-evenly, center, row);
@@ -610,6 +609,7 @@ $bg-blue: #4169e1;
       p {
         margin-top: 20px;
         font-size: 15px;
+        color: $font-light;
         // max-width: 500px;
 
         @include responsive(bigphone) {
@@ -637,7 +637,7 @@ $bg-blue: #4169e1;
     }
 
     .benefit-second-con {
-    //   border: 2px solid red;
+      //   border: 2px solid red;
       padding: 20px 0;
       margin-top: 20px;
       @include flexDisplay(center, center, row);
@@ -670,7 +670,7 @@ $bg-blue: #4169e1;
           }
           p {
             font-size: 10px;
-            columns: $font-light;
+            color: $font-light;
 
             @include responsive(tablet) {
               font-size: 12px;
@@ -685,6 +685,263 @@ $bg-blue: #4169e1;
       .benefit2 {
         border-right: 1px solid gray;
       }
+    }
+  }
+}
+
+// REVIEW
+.ad-con {
+  margin-top: -5px;
+  padding: 50px 0;
+  h1 {
+    color: $bg-blue;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    @include responsive(bigphone) {
+      font-size: 40px;
+    }
+  }
+  p {
+    text-align: center;
+    // color: $orange;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  .ad-img {
+    @include flexDisplay(space-between, center, row);
+    position: relative;
+    .backquote {
+      //   padding: 0;
+    }
+    p {
+      color: $bg-blue;
+      text-align: left;
+      font-size: 12px;
+      margin-top: 30px;
+      padding-top: 0px;
+
+      @include responsive(bigphone) {
+        font-size: 18px;
+      }
+    }
+    img {
+      border: 1px solid $bg-blue;
+      border-radius: 100px;
+      //   position: absolute;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+.newsletter-main-con {
+  //   border: 2px solid red;
+  @include flexDisplay(center, center, column);
+
+  margin-top: 100px;
+  background: url(/services.jpeg) no-repeat fixed center center;
+  background-size: cover;
+  height: 500px;
+
+  .newsletter-text {
+    @include flexDisplay(center, center, column);
+
+    background: #00000055;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+
+    h1 {
+      color: $bg-light;
+      text-align: center;
+      max-width: 600px;
+    }
+    .contact {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 30px;
+      z-index: 20;
+      //   display: none;
+      @include responsive(bigphone) {
+        display: block;
+        // border: 2px solid red;
+      }
+
+      .contact-ions {
+        @include flexDisplay(space-around, center, row);
+        border-radius: 10px;
+        border: 0.2px solid gray;
+        background: $bg-blue;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0 auto;
+
+        // @include responsive(bigphone) {
+        //   margin-left: 0;
+        //   border: none;
+        //   background: #0000002a;
+        // }
+        // @include responsive(desktop) {
+        //   padding: 5px;
+        // }
+        .click {
+          //   border: 1px solid red;
+          text-align: center;
+          margin: 5px;
+          color: $bg-light;
+          padding: 5px;
+          @include responsive(bigphone) {
+            color: $bg-light;
+          }
+          p {
+            font-size: 15px;
+            @include responsive(desktop) {
+              font-size: 20px;
+            }
+          }
+
+          .icon {
+            font-size: 20px;
+            animation: pointing 2s ease-in-out infinite;
+
+            @include responsive(desktop) {
+              font-size: 40px;
+            }
+          }
+
+          @keyframes pointing {
+            0% {
+              transform: translateX(10px);
+            }
+            50% {
+              transform: translateX(0px);
+            }
+            100% {
+              transform: translateX(10px);
+            }
+          }
+        }
+
+        .icons {
+          font-size: 40px;
+          color: $bg-light;
+          margin: 5px;
+          font-weight: bolder;
+          cursor: pointer;
+
+          @include responsive(bigphone) {
+            color: $bg-light;
+          }
+          @include responsive(desktop) {
+            font-size: 70px;
+          }
+          &:hover {
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}
+// FOOTER
+.footer-main-con {
+  background: white;
+  margin-top: -7px;
+  padding-top: 30px;
+
+  .footer-con {
+    @include flexDisplay(space-around, center, column);
+    @include responsive(bigphone) {
+      max-width: 1100px;
+      margin: 0 auto;
+      @include flexDisplay(space-around, center, row);
+    }
+    .top-con {
+      background: whitesmoke;
+      padding: 20px 10px;
+      width: 90%;
+
+      @include responsive(bigphone) {
+        @include flexDisplay(center, flex-start, column);
+        height: 40vh;
+        max-width: 400px;
+        margin: 20px;
+      }
+      .img-con {
+        width: 100%;
+        max-width: 400px;
+
+        img {
+          width: 100%;
+        }
+      }
+      p {
+        font-size: 15px;
+        margin-top: 20px;
+      }
+
+      .icon-con {
+        width: 70%;
+        // padding: 5px;
+        margin-top: 20px;
+        @include flexDisplay(space-around, center, row);
+
+        .icon {
+          color: white;
+          background: $bg-dark;
+          width: 35px;
+          height: 35px;
+          padding: 5px;
+          margin: 0 5px;
+
+          &:hover {
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+
+    .lower-con {
+      width: 90%;
+      margin-top: 20px;
+      @include flexDisplay(space-around, flex-start, column);
+      @include responsive(bigphone) {
+        @include flexDisplay(space-around, center, row);
+      }
+      .quick-link {
+        margin-bottom: auto;
+        @include flexDisplay(center, flex-start, column);
+        @include responsive(bigphone) {
+          width: 30%;
+        }
+        h3 {
+          border-bottom: 2px solid black;
+          padding-bottom: 10px;
+          margin-bottom: 10px;
+          margin-top: 30px;
+
+          @include responsive(bigphone) {
+            font-size: 15px;
+          }
+        }
+        .links {
+          color: $font-light;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px 5px;
+    margin-top: 50px;
+    background: $bg-blue;
+    p {
+      text-align: center;
+      color: white;
     }
   }
 }
