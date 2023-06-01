@@ -65,14 +65,8 @@ $bg-blue: #4169e1;
 }
 
 .about-banner {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  background-image: url(/banner3.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  @include flexDisplay(center, flex-start, column);
+  background: url(/banner3.jpg) no-repeat fixed center center;
   background-size: cover;
   height: 200px;
   padding: 10px;

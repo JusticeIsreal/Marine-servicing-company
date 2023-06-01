@@ -65,10 +65,7 @@ $bg-blue: #4169e1;
 }
 
 .service-banner {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
+  @include flexDisplay(center, flex-start, column);
   background: url(/banner3.jpg) no-repeat fixed center center;
   background-size: cover;
   height: 200px;
@@ -77,5 +74,56 @@ $bg-blue: #4169e1;
   h1 {
     font-weight: normal;
     color: $bg-light;
+  }
+}
+
+.body-main-con {
+  max-width: 1500px;
+  padding: 3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  @include responsive(bigphone) {
+    padding: 10px;
+  }
+
+  .services-con {
+    @include flexDisplay(center, center, row);
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 10px;
+      cursor: pointer;
+      border: none;
+      font-size: 15px;
+      height: 40px;
+      width: 120px;
+      background: $bg-blue;
+      color: $bg-light;
+
+      &:hover {
+        color: $bg-blue;
+        background: $bg-light;
+        border: 1px solid $bg-blue;
+      }
+    }
+
+    @include responsive(tablet) {
+      @include flexDisplay(space-evenly, center, row);
+
+      .serice-detail {
+        // border: 2px solid red !important;
+        width: 45%;
+      }
+      .detail2 {
+        order: 2;
+      }
+      img {
+        width: 45%;
+      }
+    }
   }
 }

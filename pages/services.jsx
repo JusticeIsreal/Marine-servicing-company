@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
 import Banner from "@/components/Services/Banner";
+import Details from "@/components/Services/Details";
 import React from "react";
 
 function Services() {
@@ -9,7 +10,7 @@ function Services() {
     <div style={{ background: "#f4f5fa", overflow: "hidden" }}>
       <Navbar />
       <Banner />
-
+      <Details />
       <Newsletter />
       <Footer />
     </div>
