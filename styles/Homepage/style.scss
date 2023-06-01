@@ -275,7 +275,7 @@ $bg-blue: #4169e1;
           .contact-ions {
             @include flexDisplay(space-around, center, row);
             border-radius: 10px;
-            border: 0.2px solid gray;
+            // border: 0.2px solid gray;
             // background: $font-light;
             width: 100%;
             margin: 0 auto;
@@ -290,12 +290,15 @@ $bg-blue: #4169e1;
             }
             .click {
               //   border: 1px solid red;
+              left: 0;
               text-align: center;
               margin: 5px;
               color: $bg-dark;
               padding: 5px;
+              display: none;
               @include responsive(bigphone) {
                 color: $bg-light;
+                display: block;
               }
               p {
                 font-size: 15px;
@@ -328,14 +331,16 @@ $bg-blue: #4169e1;
 
             .icons {
               font-size: 40px;
-              color: $bg-dark;
+              color: $bg-light;
               margin: 5px;
               font-weight: bolder;
               cursor: pointer;
+              background: $bg-blue;
+              border-radius: 5px;
+              width: 100px;
+              height: 50px;
+              padding: 10px;
 
-              @include responsive(bigphone) {
-                color: $bg-light;
-              }
               @include responsive(desktop) {
                 font-size: 70px;
               }
@@ -567,14 +572,11 @@ $bg-blue: #4169e1;
         }
         img {
           width: 100%;
-          //   height: 200px;
-          @include responsive(bigphone) {
-            height: 200px;
-          }
+          height: 200px;
         }
 
         &:hover {
-          transform: scale(0.9);
+          transform: scale(0.98);
         }
       }
     }
@@ -779,7 +781,7 @@ $bg-blue: #4169e1;
       .contact-ions {
         @include flexDisplay(space-around, center, row);
         border-radius: 10px;
-        border: 0.2px solid gray;
+        // border: 0.2px solid gray;
         background: $bg-blue;
         border-radius: 10px;
         width: 100%;
@@ -794,7 +796,7 @@ $bg-blue: #4169e1;
         //   padding: 5px;
         // }
         .click {
-          //   border: 1px solid red;
+          // border: 1px solid red;
           text-align: center;
           margin: 5px;
           color: $bg-light;
@@ -833,14 +835,15 @@ $bg-blue: #4169e1;
 
         .icons {
           font-size: 40px;
-          color: $bg-light;
           margin: 5px;
           font-weight: bolder;
           cursor: pointer;
+          background: $bg-blue;
+          color: $bg-light;
+          width: 100px;
+          height: 50px;
+          padding: 5px;
 
-          @include responsive(bigphone) {
-            color: $bg-light;
-          }
           @include responsive(desktop) {
             font-size: 70px;
           }

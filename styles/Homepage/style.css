@@ -263,7 +263,6 @@
   align-items: center;
   flex-direction: row;
   border-radius: 10px;
-  border: 0.2px solid gray;
   width: 100%;
   margin: 0 auto;
 }
@@ -280,14 +279,17 @@
   }
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click {
+  left: 0;
   text-align: center;
   margin: 5px;
   color: #342e37;
   padding: 5px;
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click {
     color: #f4f5fa;
+    display: block;
   }
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click p {
@@ -320,15 +322,15 @@
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
   font-size: 40px;
-  color: #342e37;
+  color: #f4f5fa;
   margin: 5px;
   font-weight: bolder;
   cursor: pointer;
-}
-@media only screen and (min-width: 768px) {
-  .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
-    color: #f4f5fa;
-  }
+  background: #4169e1;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
 }
 @media only screen and (min-width: 1200px) {
   .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
@@ -575,14 +577,10 @@
 }
 .home-services-main-con .services .services-grid-con .services-grid img {
   width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  .home-services-main-con .services .services-grid-con .services-grid img {
-    height: 200px;
-  }
+  height: 200px;
 }
 .home-services-main-con .services .services-grid-con .services-grid:hover {
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
 
 .benefit-main-con {
@@ -792,7 +790,6 @@
   align-items: center;
   flex-direction: row;
   border-radius: 10px;
-  border: 0.2px solid gray;
   background: #4169e1;
   border-radius: 10px;
   width: 100%;
@@ -839,15 +836,14 @@
 }
 .newsletter-main-con .newsletter-text .contact .contact-ions .icons {
   font-size: 40px;
-  color: #f4f5fa;
   margin: 5px;
   font-weight: bolder;
   cursor: pointer;
-}
-@media only screen and (min-width: 768px) {
-  .newsletter-main-con .newsletter-text .contact .contact-ions .icons {
-    color: #f4f5fa;
-  }
+  background: #4169e1;
+  color: #f4f5fa;
+  width: 100px;
+  height: 50px;
+  padding: 5px;
 }
 @media only screen and (min-width: 1200px) {
   .newsletter-main-con .newsletter-text .contact .contact-ions .icons {
