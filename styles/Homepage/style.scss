@@ -499,10 +499,10 @@ $bg-blue: #4169e1;
 // SERVICES
 .home-services-main-con {
   margin-top: 100px;
-  //   background: url(/services.jpeg) no-repeat fixed center center;
+    background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
   height: 720px;
-  background: $bg-blue;
+//   background: $bg-blue;
 
   @include responsive(bigphone) {
     height: 1030px;

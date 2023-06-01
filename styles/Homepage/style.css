@@ -493,9 +493,9 @@
 
 .home-services-main-con {
   margin-top: 100px;
+  background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
   height: 720px;
-  background: #4169e1;
 }
 @media only screen and (min-width: 768px) {
   .home-services-main-con {
