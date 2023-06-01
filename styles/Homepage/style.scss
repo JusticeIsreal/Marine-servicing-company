@@ -263,7 +263,7 @@ $bg-blue: #4169e1;
           width: 100%;
 
           margin-top: 30px;
-
+          z-index: 20;
           //   display: none;
           @include responsive(bigphone) {
             display: block;
@@ -292,7 +292,7 @@ $bg-blue: #4169e1;
               margin: 5px;
               color: $bg-dark;
               padding: 5px;
-              @include responsive(desktop) {
+              @include responsive(bigphone) {
                 color: $bg-light;
               }
               p {
@@ -331,12 +331,14 @@ $bg-blue: #4169e1;
               font-weight: bolder;
               cursor: pointer;
 
-              &:hover {
-                transform: scale(0.9);
+              @include responsive(bigphone) {
+                color: $bg-light;
               }
               @include responsive(desktop) {
                 font-size: 70px;
-                color: $bg-light;
+              }
+              &:hover {
+                transform: scale(0.9);
               }
             }
           }
@@ -379,9 +381,10 @@ $bg-blue: #4169e1;
     margin-top: 20px;
 
     .img {
-      //   border: 2px solid red;
+      border: 2px solid red;
       object-fit: contain;
       margin: 5px;
+    //   width: 22%;
     }
   }
 }
@@ -495,9 +498,10 @@ $bg-blue: #4169e1;
 // SERVICES
 .home-services-main-con {
   margin-top: 100px;
-  background: url(/services.jpeg) no-repeat fixed center center;
+  //   background: url(/services.jpeg) no-repeat fixed center center;
   background-size: cover;
   height: 720px;
+  background: $bg-blue;
 
   @include responsive(bigphone) {
     height: 1030px;
