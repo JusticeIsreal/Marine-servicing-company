@@ -273,12 +273,14 @@ $bg-blue: #4169e1;
           .contact-ions {
             @include flexDisplay(space-around, center, row);
             border-radius: 10px;
-            background: #6e89da;
+            border: 0.2px solid gray;
+            // background: $font-light;
             width: 100%;
             margin: 0 auto;
 
             @include responsive(bigphone) {
               margin-left: 0;
+              border: none;
               background: #0000002a;
             }
             @include responsive(desktop) {
@@ -288,7 +290,7 @@ $bg-blue: #4169e1;
               //   border: 1px solid red;
               text-align: center;
               margin: 5px;
-              color: white;
+              color: $bg-dark;
               padding: 5px;
 
               p {
@@ -322,7 +324,7 @@ $bg-blue: #4169e1;
 
             .icons {
               font-size: 40px;
-              color: white;
+              color: $bg-dark;
               margin: 5px;
               font-weight: bolder;
               cursor: pointer;

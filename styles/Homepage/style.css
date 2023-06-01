@@ -261,13 +261,14 @@
   align-items: center;
   flex-direction: row;
   border-radius: 10px;
-  background: #6e89da;
+  border: 0.2px solid gray;
   width: 100%;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions {
     margin-left: 0;
+    border: none;
     background: rgba(0, 0, 0, 0.1647058824);
   }
 }
@@ -279,7 +280,7 @@
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click {
   text-align: center;
   margin: 5px;
-  color: white;
+  color: #342e37;
   padding: 5px;
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .click p {
@@ -312,7 +313,7 @@
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .contact .contact-ions .icons {
   font-size: 40px;
-  color: white;
+  color: #342e37;
   margin: 5px;
   font-weight: bolder;
   cursor: pointer;
