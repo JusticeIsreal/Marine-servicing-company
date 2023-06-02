@@ -66,6 +66,12 @@
   text-align: center !important;
   font-weight: 100;
   color: #444;
+  font-size: 17px;
+}
+@media only screen and (min-width: 768px) {
+  .body-main-con .logo2 h2 {
+    font-size: 30px;
+  }
 }
 .body-main-con .logo2 img {
   width: 100%;
