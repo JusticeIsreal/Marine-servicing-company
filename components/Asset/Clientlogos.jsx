@@ -13,7 +13,7 @@ const Clientlogos = [
   },
   {
     id: 4,
-    logo: "https://res.cloudinary.com/isreal/image/upload/v1685708603/calm%20waters%20project/Auspoint_Final_NEW-Logo_Final_Website_23yrs-removebg-preview_cvfhc2.png",
+    logo: "https://res.cloudinary.com/isreal/image/upload/v1685744800/calm%20waters%20project/Stratos-Logo-Icon-300x244_ynewnv.png",
   },
   {
     id: 5,
