@@ -221,6 +221,11 @@
     max-width: 800px;
   }
 }
+@media only screen and (min-width: 768px) {
+  .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .text-con {
+    margin-left: 20px;
+  }
+}
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con .text-con h1 {
   color: #f4f5fa;
 }
