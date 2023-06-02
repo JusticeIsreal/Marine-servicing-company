@@ -86,7 +86,13 @@ $bg-blue: #4169e1;
   @include responsive(bigphone) {
     padding: 10px;
   }
-
+  .msg-heading {
+    // border: 2px solid red;
+    width: 50%;
+    font-weight: bold;
+    color: $bg-blue;
+    margin-top: 40px;
+  }
   .services-con {
     @include flexDisplay(center, center, row);
     flex-wrap: wrap;
@@ -132,6 +138,7 @@ $bg-blue: #4169e1;
   .project-img {
     @include flexDisplay(center, center, row);
     flex-wrap: wrap;
+    margin-top: 20px;
     div {
       //   border: 2px solid red;
       margin: 5px;

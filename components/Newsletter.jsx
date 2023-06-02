@@ -14,10 +14,10 @@ function Newsletter() {
         </h1>
         <div className="contact">
           <div className="contact-ions">
-            <div className="click">
+            {/* <div className="click">
               <p>Click</p>
               <ImPointRight className="icon" />
-            </div>
+            </div> */}
             <a target="_blank" href="tel:+2348034652594">
               <FiPhone className="icons" />
             </a>

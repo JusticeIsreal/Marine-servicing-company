@@ -44,6 +44,12 @@
     padding: 10px;
   }
 }
+.body-main-con .msg-heading {
+  width: 50%;
+  font-weight: bold;
+  color: #4169e1;
+  margin-top: 40px;
+}
 .body-main-con .services-con {
   display: flex;
   justify-content: center;
@@ -93,6 +99,7 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .body-main-con .project-img div {
   margin: 5px;

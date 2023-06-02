@@ -5,8 +5,9 @@ function Clients() {
   return (
     <div className="client-main-con">
       <h1>
-        Over <span>100+ clients</span> nation wide
+        Over <span>50 clients</span> nation wide
       </h1>
+
       <div className="client-logo">
         {Clientlogos.map((item) => (
           <Image

@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useRef, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { GrClose } from "react-icons/gr";
+import { CgClose } from "react-icons/cg";
 
 function Navbar() {
   // toggle navbar
@@ -53,7 +53,7 @@ function Navbar() {
           </ul>
         </nav>
         <div className="menu-btn" onClick={() => toggleMobileNavbar()}>
-          {toggleBtn ? <GrClose /> : <AiOutlineMenu />}
+          {toggleBtn ? <CgClose /> : <AiOutlineMenu />}
         </div>
       </main>
     </div>
