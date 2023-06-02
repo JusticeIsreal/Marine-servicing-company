@@ -357,26 +357,27 @@ $bg-blue: #4169e1;
 
 // CLIENTS
 .client-main-con {
-  //   border: 2px solid red;
+    // border: 2px solid red;
   margin: 0 auto;
   margin-top: 100px;
   text-align: center;
   max-width: 1200px;
-  display: none;
+  // display: none;
   @include responsive(bigphone) {
     margin-top: 50px;
     display: block;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 15px;
     color: $bg-dark-gray;
+    font-weight: normal;
     @include responsive(bigphone) {
+      font-size: 20px;
+    }
+    @include responsive(desktop) {
       font-size: 30px;
     }
-    // @include responsive(desktop) {
-    //   font-size: 40px;
-    // }
     span {
       color: $bg-blue;
     }
@@ -386,7 +387,7 @@ $bg-blue: #4169e1;
     @include flexDisplay(space-around, center, row);
     // border: 2px solid red;
     flex-wrap: wrap;
-    margin-top: 20px;
+    // margin-top: 20px;
 
     .img {
       //   border: 2px solid red;
@@ -400,7 +401,7 @@ $bg-blue: #4169e1;
 // CLIENTS
 .homeabout-main-con {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 5px;
   color: $font-light;
 
