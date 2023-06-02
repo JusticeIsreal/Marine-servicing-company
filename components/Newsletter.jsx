@@ -21,7 +21,7 @@ function Newsletter() {
             <a target="_blank" href="tel:+2348034652594">
               <FiPhone className="icons" />
             </a>
-            <a target="_blank" href="mailto:calmwatersltd@gmail.com">
+            <a target="_blank" href="mailto:Info@calmwatersltd.com">
               <MdOutlineEmail className="icons" />
             </a>
             <a

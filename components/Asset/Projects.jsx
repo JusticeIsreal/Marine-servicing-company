@@ -6,6 +6,12 @@ const ProjectImg = [
     type: "offshore",
   },
   {
+    id: 1890,
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685739575/calm%20waters%20project/slider3_beimgi.jpg",
+    txt: "TRUCKING",
+    type: "onshore",
+  },
+  {
     id: 100,
     img: "https://res.cloudinary.com/isreal/image/upload/v1685710599/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.37_PM_p543rj.jpg",
     txt: "BUNKER OPERATION",

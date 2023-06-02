@@ -383,6 +383,7 @@
      object-fit: contain;
   margin: 5px;
   width: 22%;
+  height: 50%;
 }
 
 .homeabout-main-con {
@@ -500,19 +501,8 @@
 
 .home-services-main-con {
   margin-top: 100px;
-  background: url("https://res.cloudinary.com/isreal/image/upload/v1685681953/calm%20waters%20project/picservices_swndbe.jpg") no-repeat fixed center center;
-  background-size: cover;
   background: #4169e1;
-}
-@media only screen and (min-width: 768px) {
-  .home-services-main-con {
-    height: 1030px;
-  }
-}
-@media only screen and (min-width: 1023px) {
-  .home-services-main-con {
-    height: 830px;
-  }
+  padding-bottom: 40px;
 }
 .home-services-main-con h1 {
   font-size: 30px;
@@ -550,11 +540,6 @@
     padding: 15px;
   }
 }
-@media only screen and (min-width: 1023px) {
-  .home-services-main-con .services {
-    margin-top: 70px;
-  }
-}
 .home-services-main-con .services .services-grid-con {
   display: flex;
   justify-content: space-evenly;
@@ -582,7 +567,7 @@
 }
 .home-services-main-con .services .services-grid-con .services-grid img {
   width: 100%;
-  height: 200px;
+  height: 230px;
 }
 .home-services-main-con .services .services-grid-con .services-grid:hover {
   transform: scale(0.98);

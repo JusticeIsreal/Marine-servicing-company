@@ -11,7 +11,7 @@ export default async function handler(req, res) {
       secure: true,
       auth: {
         user: companyEmail,
-        pass: "wlrweozqzxthemyu",
+        pass: "oelacxlxiryawkdm",
       },
     });
 
@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       // Send the email
       await transporter.sendMail({
         from: companyEmail,
-        to: "justiceyba@gmail.com",
+        to: "Info@calmwatersltd.com",
         subject: `${message}`,
         text: `You have a message from\n\nEmail: ${email}\n\nPhone No: ${number}\n\nMessage: ${message}`,
       });

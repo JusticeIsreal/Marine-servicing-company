@@ -32,15 +32,7 @@ function Body() {
           Environmental and Quality standards applicable. Our mission to
           approach our business in these means;
         </p>
-        <p>
-          We are a recognised petroleum products trading company having vast
-          experience in supply of refined products at marine and retail levels,
-          with an International focus and significant achievements; all in
-          complete adherence to the highest Health, Safety, Security,
-          Environmental and Quality standards applicable. Our mission to
-          approach our business in these means;
-        </p>
-        <h1>Your Successe is Our Success.</h1>
+        <h1>Your Success is Our Success</h1>
         <p>
           Our relentless drive is to deliver a world-class logistics service to
           all our customers worldwide; aided by our vision and mission, which

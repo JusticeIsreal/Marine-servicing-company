@@ -23,19 +23,28 @@ function Details() {
             Thomas is the Managing director of Calm Waters Integrated Services
             Limited with wealth of experience in Marine Transport and
             Management. He holds a HND in Maritime Transport and Business
-            Management from the Maritime Academy of Nigeria, Oron, and also an
-            array of professional qualifications, including professional
-            certificate in Basic Oil Tanker Cargo Operations, Crew Safety
-            Awareness Certificate, Port Facility Security Officer, Personal
-            Survival at Sea Techniques, Fire prevention and Fire Fighting, etc.
-            Thomas has worked with reputable oil and gas and shipping companies,
-            and brings to bear his experience in managing the affairs of Calm
-            Waters Integrated Services Limited.
+            Management from the Maritime Academy of Nigeria, Oron,Msc. In
+            Transport and Logistics management from Bestower international
+            university Benin Republic and also an array of professional
+            qualifications, including professional certificate in Basic Oil
+            Tanker Cargo Operations, Crew Safety Awareness Certificate, Port
+            Facility Security Officer, Personal Survival at Sea Techniques, Fire
+            prevention and Fire Fighting, etc. Thomas has worked with reputable
+            oil and gas and shipping companies, and brings to bear his
+            experience in managing the affairs of Calm Waters Integrated
+            Services Limited.
           </p>
           <p>
             Thomas is driving the business of Calm Waters Integrated Services
             with passion, dedication to duty and integrity.
           </p>
+          <p>
+            E-mail:{" "}
+            <a target="_blank" href="mailto:Tom@calmwatersltd.com">
+              Tom@calmwatersltd.com
+            </a>
+          </p>
+
           {/* <button>Call Us</button> */}
         </div>
         <img
@@ -56,10 +65,16 @@ function Details() {
             engaged by reputable oil and gas services companies as a Recognized
             Security Officer, Super Cargo, Clearing and Boarding Officer, etc.
           </p>
+          <p>
+            E-mail:{" "}
+            <a target="_blank" href="mailto:Samuel.kure@calmwatersltd.com">
+              Samuel.kure@calmwatersltd.com
+            </a>
+          </p>
           {/* <button>Call Us</button> */}
         </div>
         <img
-          src="https://res.cloudinary.com/isreal/image/upload/v1685671518/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_6.58.57_PM_qql9ap.jpg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685740234/calm%20waters%20project/WhatsApp_Image_2023-06-02_at_3.16.45_PM_tfffi3.jpg"
           alt=""
         />
       </div>
@@ -77,6 +92,12 @@ function Details() {
             etc. Bright is committed to changing the narrative in the Nigerian
             Maritime space, leveraging his wealth of experience and
             international exposure.
+          </p>
+          <p>
+            E-mail:{" "}
+            <a target="_blank" href="ekenma.bright@calmwatersltd.com">
+              ekenma.bright@calmwatersltd.com
+            </a>
           </p>
           {/* <button>Get free quote</button> */}
         </div>

@@ -22,7 +22,9 @@ function Details() {
             range of services to support the smooth operation of maritime
             activities.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>
         </div>
         <img
           src="https://res.cloudinary.com/isreal/image/upload/v1685682756/calm%20waters%20project/picservices_dpvgru.jpg"
@@ -111,6 +113,28 @@ function Details() {
         </div>
         <img
           src="https://res.cloudinary.com/isreal/image/upload/v1685682748/calm%20waters%20project/picservice4_wfjcl6.jpg"
+          alt=""
+        />
+      </div>
+      <div className="services-con">
+        <div className="serice-detail detail2">
+          <h1>Trucking</h1>
+          <p>
+            Calm Waters Ltd is a marine trucking service company that
+            specializes in providing reliable transportation solutions for the
+            maritime industry. With a focus on ensuring smooth logistics
+            operations, Calm Waters Ltd facilitates the movement of cargo,
+            equipment, and supplies between marine vessels and onshore locations
+            such as ports and shipyards. Their expertise in maritime logistics
+            enables them to efficiently navigate the unique challenges of the
+            industry, contributing to the seamless flow of goods and materials.
+          </p>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>{" "}
+        </div>
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685739575/calm%20waters%20project/slider3_beimgi.jpg"
           alt=""
         />
       </div>

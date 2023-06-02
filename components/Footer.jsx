@@ -49,17 +49,23 @@ function Footer() {
 
           <div className="quick-link">
             <h3>Other Links</h3>
-            <Link href="/Admin/Login" className="links">
+            <Link href="/team" className="links">
               Company profile
             </Link>
-            <Link href="/Admin/Login" className="links">
+            <Link href="/about" className="links">
               Company policy
             </Link>
           </div>
           <div className="quick-link">
             <h3>Contact</h3>
             <p className="links">
-              <b>E-mail Address: </b> calmwatersltd@gmail.com.
+              <b>E-mail Address: </b>{" "}
+              <a href="mailto:Info@calmwatersltd.com">Info@calmwatersltd.com</a>{" "}
+              <br />
+              <a href="mailto:Operations@calmwatersltd.com">
+                Operations@calmwatersltd.com
+              </a>
+              .
             </p>
             <p className="links">
               <b>Physical Address:</b> House 24 plot 3006 Rafiu Babatunde Tinubu

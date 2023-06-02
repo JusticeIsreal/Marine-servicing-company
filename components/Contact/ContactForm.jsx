@@ -4,8 +4,8 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
-  const companyEmail = "Jusminempire@gmail.com";
-
+  const companyEmail = "Calmwatersltd@gmail.com";
+  // oelacxlxiryawkdm
   const handleSubmit = async (e) => {
     e.preventDefault();
 

@@ -53,7 +53,7 @@ function Banner() {
                           </a>
                           <a
                             target="_blank"
-                            href="mailto:calmwatersltd@gmail.com"
+                            href="mailto:Info@calmwatersltd.com"
                           >
                             <MdOutlineEmail className="icons" />
                           </a>
