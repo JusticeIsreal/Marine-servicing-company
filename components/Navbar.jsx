@@ -46,7 +46,7 @@ function Navbar() {
             <Link href="/team">
               <li>Our-Team</li>
             </Link>
-            <Link href="/give">
+            <Link href="/contact">
               <li>Contact</li>
             </Link>
           </ul>

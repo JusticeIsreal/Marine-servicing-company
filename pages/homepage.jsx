@@ -1,3 +1,4 @@
+import ContactForm from "@/components/Contact/ContactForm";
 import Footer from "@/components/Footer";
 import Aboutus from "@/components/Homepage/Aboutus";
 import Banner from "@/components/Homepage/Banner";
@@ -20,6 +21,7 @@ function me() {
       <Benefits />
       <Testimony />
       <Newsletter />
+      <ContactForm />
       <Footer />
     </div>
   );

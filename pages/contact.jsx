@@ -1,22 +1,20 @@
-import Banner from "@/components/About/Banner";
-import Body from "@/components/About/Body";
-import ContactForm from "@/components/Contact/ContactForm";
+import Banner from "@/components/Contact/Banner";
+import Details from "@/components/Contact/Details";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
 import React from "react";
 
-function About() {
+function contact() {
   return (
     <div style={{ background: "#f4f5fa", overflow: "hidden" }}>
       <Navbar />
       <Banner />
-      <Body />
+      <Details />
       <Newsletter />
-      <ContactForm />
       <Footer />
     </div>
   );
 }
 
-export default About;
+export default contact;

@@ -1,3 +1,4 @@
+import ContactForm from '@/components/Contact/ContactForm';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import Newsletter from '@/components/Newsletter';
@@ -12,6 +13,7 @@ function team() {
       <Banner />
       <Details />
       <Newsletter />
+      <ContactForm />
       <Footer />
     </div>
   );
