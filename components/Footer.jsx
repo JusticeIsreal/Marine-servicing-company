@@ -62,8 +62,8 @@ function Footer() {
               <b>E-mail Address: </b> calmwatersltd@gmail.com.
             </p>
             <p className="links">
-              <b>Physical Address:</b> 2237, Joseph Orru Street, Unity Estate,
-              Festac Town, Lagos, Nigeria
+              <b>Physical Address:</b> House 24 plot 3006 Rafiu Babatunde Tinubu
+              close Amuwo Odofin, Lagos, Nigeria
             </p>
             <p className="links">(+234) 803 465 2594</p>
             <p className="links">(+234) 803 968 8200</p>

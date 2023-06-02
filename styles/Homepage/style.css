@@ -729,7 +729,7 @@
 .ad-con .ad-img p {
   color: #4169e1;
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 30px;
   padding-top: 0px;
 }
@@ -739,10 +739,9 @@
   }
 }
 .ad-con .ad-img img {
-  border: 1px solid #4169e1;
   border-radius: 100px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: 10px;
   bottom: 0;
   right: 0;

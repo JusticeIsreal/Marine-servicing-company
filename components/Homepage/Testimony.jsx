@@ -6,8 +6,8 @@ function Testimony() {
   const autoplay = useRef(Autoplay({ delay: 4000 }));
   return (
     <div className="ad-con">
-      <p>Our Customer</p>
-      <h1>Reviews</h1>
+      <p>Our Customers</p>
+      <h1>Review</h1>
       <Carousel
         withIndicators
         // height={200}
@@ -22,6 +22,22 @@ function Testimony() {
         ]}
         plugins={[autoplay.current]}
       >
+        <Carousel.Slide>
+          <div className="ad-img">
+            {" "}
+            <Blockquote cite="– Canaan Omoghene" className="backquote">
+              <p>
+                We have been impressed with the expertise and professionalism of
+                Calm Waters Ltd. Their team has been instrumental in keeping our
+                marine fleet in top shape.
+              </p>
+            </Blockquote>
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685705342/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_6.41.07_PM_nkuyh0.jpg"
+              alt=""
+            />
+          </div>
+        </Carousel.Slide>
         <Carousel.Slide>
           <div className="ad-img">
             {" "}
@@ -68,22 +84,6 @@ function Testimony() {
             </Blockquote>
             <img
               src="https://res.cloudinary.com/isreal/image/upload/v1685681772/calm%20waters%20project/client1_hj7jzf.jpg"
-              alt=""
-            />
-          </div>
-        </Carousel.Slide>
-        <Carousel.Slide>
-          <div className="ad-img">
-            {" "}
-            <Blockquote cite="– Danis R.E" className="backquote">
-              <p>
-                We have been impressed with the expertise and professionalism of
-                Calm Waters Ltd. Their team has been instrumental in keeping our
-                marine fleet in top shape.
-              </p>
-            </Blockquote>
-            <img
-              src="https://res.cloudinary.com/isreal/image/upload/v1685681668/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.34.54_PM_vcmwtf.jpg"
               alt=""
             />
           </div>

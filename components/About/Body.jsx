@@ -65,6 +65,18 @@ function Body() {
         <img src="/design.png" alt="" className="bg-image1" />
         <div>
           {" "}
+          <h1>Our Core Values</h1>
+          <p>
+            At Calm Waters Integrated Services Limited we operate on the 5 T's
+            Core value system
+          </p>
+          <ol>
+            <li>* Teamwork</li>
+            <li>* STenacity</li>
+            <li>* Time management</li>
+            <li>* Transparency</li>
+            <li>* Trustworthiness</li>
+          </ol>
           <h1>Our Products</h1>
           <p>
             Calm Waters Integrated Services Limited offers a wide range of

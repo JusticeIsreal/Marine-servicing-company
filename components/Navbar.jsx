@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useRef, useState } from "react";
-import { BsFillMenuButtonFill, BsFillMenuButtonWideFill } from "react-icons/bs";
+import { AiOutlineMenu } from "react-icons/ai";
+import { GrClose } from "react-icons/gr";
 
 function Navbar() {
   // toggle navbar
@@ -52,7 +53,7 @@ function Navbar() {
           </ul>
         </nav>
         <div className="menu-btn" onClick={() => toggleMobileNavbar()}>
-          {toggleBtn ? <BsFillMenuButtonWideFill /> : <BsFillMenuButtonFill />}
+          {toggleBtn ? <GrClose /> : <AiOutlineMenu />}
         </div>
       </main>
     </div>
