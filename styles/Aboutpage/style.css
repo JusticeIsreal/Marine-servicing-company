@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background: url(/banner3.jpg) no-repeat fixed center center;
+  background: url("https://res.cloudinary.com/isreal/image/upload/v1685680215/calm%20waters%20project/banner3_g150iv.jpg") no-repeat fixed center center;
   background-size: cover;
   height: 200px;
   padding: 10px;

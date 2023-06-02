@@ -506,7 +506,8 @@ $bg-blue: #4169e1;
 // SERVICES
 .home-services-main-con {
   margin-top: 100px;
-  background: url(/services.jpeg) no-repeat fixed center center;
+  background: url("https://res.cloudinary.com/isreal/image/upload/v1685681953/calm%20waters%20project/picservices_swndbe.jpg")
+    no-repeat fixed center center;
   background-size: cover;
   //   height: 720px;
   //   background: $bg-blue;
@@ -750,7 +751,8 @@ $bg-blue: #4169e1;
   @include flexDisplay(center, center, column);
 
   margin-top: 100px;
-  background: url(/services.jpeg) no-repeat fixed center center;
+  background: url("https://res.cloudinary.com/isreal/image/upload/v1685681953/calm%20waters%20project/picservices_swndbe.jpg")
+    no-repeat fixed center center;
   background-size: cover;
   height: 500px;
 

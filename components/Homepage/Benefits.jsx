@@ -17,13 +17,16 @@ function Benefits() {
             income while developing long-term technological and managerial
             capabilities for our people and host communities.
           </p>
-          <Link href="/" className="btn">
+          <a target="_blank" href="tel:+2348034652594" className="btn">
             <div>Lets Talk</div>{" "}
-          </Link>
+          </a>
         </div>
         <div className="benefit-second-con">
           <div className="benefit benefit1 benefit2">
-            <img src="/customerservice.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685680966/calm%20waters%20project/customerservice_x5mssa.png"
+              alt=""
+            />
             <div className="detail">
               <h3>24/7 Service</h3>
               <p>
@@ -33,7 +36,10 @@ function Benefits() {
             </div>
           </div>
           <div className="benefit benefit1 ">
-            <img src="/expert.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685680972/calm%20waters%20project/expert_jwynet.png"
+              alt=""
+            />
             <div className="detail">
               <h3>Proffessionals</h3>
               <p>
@@ -43,7 +49,10 @@ function Benefits() {
             </div>
           </div>
           <div className="benefit benefit2">
-            <img src="/bestsolution.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685680961/calm%20waters%20project/bestsolution_tvav6p.png"
+              alt=""
+            />
             <div className="detail">
               <h3>Tech Solution</h3>
               <p>
@@ -53,7 +62,10 @@ function Benefits() {
             </div>
           </div>
           <div className="benefit">
-            <img src="/provenrecord.png" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685680976/calm%20waters%20project/provenrecord_r3wipw.png"
+              alt=""
+            />
             <div className="detail">
               <h3>Track record</h3>
               <p>

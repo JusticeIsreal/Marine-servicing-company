@@ -25,53 +25,67 @@ function Testimony() {
         <Carousel.Slide>
           <div className="ad-img">
             {" "}
-            <Blockquote cite="– Kola Ibrahim" className="backquote">
+            <Blockquote cite="– Engr. J.I Agbonma" className="backquote">
               <p>
-                This website is amazing! They have the best customer serveice
-                response available. I received my order without stress. Highly
-                recommended!
+                Calm Waters Ltd has been our trusted partner for marine
+                servicing needs.They have consistently provided top-notch
+                service, ensuring our vessels are in optimal condition. Highly
+                recommend their services!
               </p>
             </Blockquote>
-            <img src="/review1.jpeg" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685681688/calm%20waters%20project/IMG_5103_aeqmu3.jpg"
+              alt=""
+            />
           </div>
         </Carousel.Slide>
         <Carousel.Slide>
           <div className="ad-img">
             {" "}
-            <Blockquote cite="– Kola Ibrahim" className="backquote">
+            <Blockquote cite="–Engr. B.E Onyekachi" className="backquote">
               <p>
-                This website is amazing! They have the best customer serveice
-                response available. I received my order without stress. Highly
-                recommended!
+                We have been relying on Calm Waters Ltd. Their professionalism
+                and attention to detail are commendable. they always deliver
+                excellent results. Truly a reliable partner in the maritime
+                industry
               </p>
             </Blockquote>
-            <img src="/review1.jpeg" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685681671/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.37.44_PM_1_sjohao.jpg"
+              alt=""
+            />
           </div>
         </Carousel.Slide>
         <Carousel.Slide>
           <div className="ad-img">
             {" "}
-            <Blockquote cite="– Kola Ibrahim" className="backquote">
+            <Blockquote cite="– Justice Oghenetegha" className="backquote">
               <p>
-                This website is amazing! They have the best customer serveice
-                response available. I received my order without stress. Highly
-                recommended!
+                Calm Waters Ltd is our go-to company for marine servicing and
+                inspections. Their technicians are thorough and efficient,
+                ensuring our vessels meet all safety standards.
               </p>
             </Blockquote>
-            <img src="/review1.jpeg" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685681772/calm%20waters%20project/client1_hj7jzf.jpg"
+              alt=""
+            />
           </div>
         </Carousel.Slide>
         <Carousel.Slide>
           <div className="ad-img">
             {" "}
-            <Blockquote cite="– Kola Ibrahim" className="backquote">
+            <Blockquote cite="– Danis R.E" className="backquote">
               <p>
-                This website is amazing! They have the best customer serveice
-                response available. I received my order without stress. Highly
-                recommended!
+                We have been impressed with the expertise and professionalism of
+                Calm Waters Ltd. Their team has been instrumental in keeping our
+                marine fleet in top shape.
               </p>
             </Blockquote>
-            <img src="/review1.jpeg" alt="" />
+            <img
+              src="https://res.cloudinary.com/isreal/image/upload/v1685681668/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.34.54_PM_vcmwtf.jpg"
+              alt=""
+            />
           </div>
         </Carousel.Slide>
       </Carousel>

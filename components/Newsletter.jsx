@@ -18,9 +18,18 @@ function Newsletter() {
               <p>Click</p>
               <ImPointRight className="icon" />
             </div>
-            <FiPhone className="icons" />
-            <MdOutlineEmail className="icons" />
-            <FaWhatsapp className="icons" />
+            <a target="_blank" href="tel:+2348034652594">
+              <FiPhone className="icons" />
+            </a>
+            <a target="_blank" href="mailto:calmwatersltd@gmail.com">
+              <MdOutlineEmail className="icons" />
+            </a>
+            <a
+              target="_blank"
+              href="https://wa.me/+2348034652594?text= Hello ! "
+            >
+              <FaWhatsapp className="icons" />
+            </a>
           </div>
         </div>
       </div>

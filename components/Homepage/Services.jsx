@@ -12,7 +12,7 @@ function Services() {
         <div className="services-grid-con">
           {Serviceimage.map((item) => (
             <div className="services-grid" key={item.id}>
-              <Link href="/">
+              <Link href="/services">
                 <img src={item.img} alt="" />
                 <p>{item.txt}</p>
               </Link>

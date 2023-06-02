@@ -21,6 +21,10 @@ function ContactForm() {
       if (response.ok) {
         // Email sent successfully
         console.log("Email sent successfully");
+        setEmail("");
+        setNumber("");
+        setMessage("");
+        alert("Email sent successfully");
       } else {
         // Failed to send email
         console.log("Failed to send email");

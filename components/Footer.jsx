@@ -30,16 +30,19 @@ function Footer() {
             <Link href="/" className="links">
               Home
             </Link>
-            <Link href="/" className="links">
+            <Link href="/about" className="links">
               About
             </Link>
-            <Link href="/" className="links">
+            <Link href="/services" className="links">
               Services
             </Link>
-            <Link href="/" className="links">
+            <Link href="/team" className="links">
               Our Team
             </Link>
-            <Link href="/" className="links">
+            <Link href="/projects" className="links">
+              Projects
+            </Link>
+            <Link href="/contact" className="links">
               Contact
             </Link>
           </div>

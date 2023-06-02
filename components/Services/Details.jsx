@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Details() {
@@ -23,7 +24,10 @@ function Details() {
           </p>
           <button>Get free quote</button>
         </div>
-        <img src="/picservices.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682756/calm%20waters%20project/picservices_dpvgru.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail detail2">
@@ -37,9 +41,14 @@ function Details() {
             and navigates through the complexities of the clearance process,
             minimizing delays and optimizing vessel turnaround time.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>
         </div>
-        <img src="/picservice1.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682735/calm%20waters%20project/picservice1_zn4btu.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail">
@@ -53,9 +62,14 @@ function Details() {
             control, surveillance systems, and risk assessment protocols, to
             mitigate threats and ensure a secure operating environment.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>{" "}
         </div>
-        <img src="/picservice2.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682739/calm%20waters%20project/picservice2_yjsnwx.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail detail2">
@@ -69,9 +83,14 @@ function Details() {
             procurement, delivery, and storage of chandlery items, ensuring
             seamless supply chain management and minimizing downtime.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>{" "}
         </div>
-        <img src="/picservice3.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682742/calm%20waters%20project/picservice3_fp1x0j.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail">
@@ -86,9 +105,14 @@ function Details() {
             transportation, our marine haulage services ensure timely and secure
             movement of goods.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>
         </div>
-        <img src="/picservice4.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682748/calm%20waters%20project/picservice4_wfjcl6.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail detail2">
@@ -103,9 +127,14 @@ function Details() {
             enabling our clients to optimize their fuel procurement strategies
             while adhering to regulatory standards.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>{" "}
         </div>
-        <img src="/abt.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685679626/calm%20waters%20project/abt_jyu5aq.jpg"
+          alt=""
+        />
       </div>
       <div className="services-con">
         <div className="serice-detail">
@@ -122,9 +151,14 @@ function Details() {
             daily Tanker Report which captures in Real Time Tankers Loading /
             Discharging at various ports.
           </p>
-          <button>Get free quote</button>
+          <a target="_blank" href="tel:+2348034652594">
+            <button>Get free quote</button>
+          </a>{" "}
         </div>
-        <img src="/picservice6.jpeg" alt="" />
+        <img
+          src="https://res.cloudinary.com/isreal/image/upload/v1685682751/calm%20waters%20project/picservice6_pfi3dr.jpg"
+          alt=""
+        />
       </div>
       <p>
         At Calm Waters Integrated Services Limited, we are committed to

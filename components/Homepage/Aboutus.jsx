@@ -29,7 +29,7 @@ function Aboutus() {
       </div>
       <div className="lower-part">
         <Image
-          src="/abt.jpeg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685679626/calm%20waters%20project/abt_jyu5aq.jpg"
           alt="img"
           width={350}
           height={300}
@@ -49,7 +49,9 @@ function Aboutus() {
             seamless services to our clients, in line with industry best
             practices and sustainability principles.
           </p>
-          <button>Know more</button>
+          <Link href="about">
+            <button>Know more</button>
+          </Link>
         </div>
       </div>
     </div>
