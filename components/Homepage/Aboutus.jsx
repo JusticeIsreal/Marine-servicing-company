@@ -11,19 +11,19 @@ function Aboutus() {
 
       <div className="client-logo">
         <div className="img">
-          <h3>100+</h3>
+          <h3>50</h3>
           <p>Esteem clients</p>
         </div>
         <div className="img">
-          <h3>1k+</h3>
+          <h3>70</h3>
           <p>Customer Review</p>
         </div>
         <div className="img">
-          <h3>10+</h3>
+          <h3>5+</h3>
           <p>Years Experience</p>
         </div>
         <div className="img">
-          <h3>100K+</h3>
+          <h3>100+</h3>
           <p>Completed Projects</p>
         </div>
       </div>
