@@ -498,6 +498,7 @@
   margin-top: 100px;
   background: url("https://res.cloudinary.com/isreal/image/upload/v1685681953/calm%20waters%20project/picservices_swndbe.jpg") no-repeat fixed center center;
   background-size: cover;
+  background: #4169e1;
 }
 @media only screen and (min-width: 768px) {
   .home-services-main-con {

@@ -1,32 +1,32 @@
 const Serviceimage = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680983/calm%20waters%20project/service1_blq08s.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685680215/calm%20waters%20project/banner3_g150iv.jpg",
     txt: "Marine Logistics",
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680987/calm%20waters%20project/service2_sq9lwt.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685682751/calm%20waters%20project/picservice6_pfi3dr.jpg",
     txt: "Naval Clearance",
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680991/calm%20waters%20project/service3_m2ymqv.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685680745/calm%20waters%20project/security_p4dqvx.jpg",
     txt: "Security Services",
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680995/calm%20waters%20project/service4_ofxrff.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685707525/calm%20waters%20project/offshore-and-onshore_nhvarn.jpg",
     txt: "Chandeling",
   },
   {
     id: 5,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680998/calm%20waters%20project/service5_genuxr.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685682748/calm%20waters%20project/picservice4_wfjcl6.jpg",
     txt: "Haulage",
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685681004/calm%20waters%20project/service6_d8ig8z.png",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685706334/calm%20waters%20project/WhatsApp_Image_2023-06-02_at_12.38.21_PM_wxvwca.jpg",
     txt: "Bunker Supply",
   },
 ];

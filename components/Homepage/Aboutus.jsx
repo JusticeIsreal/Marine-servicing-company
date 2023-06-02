@@ -29,7 +29,7 @@ function Aboutus() {
       </div>
       <div className="lower-part">
         <Image
-          src="https://res.cloudinary.com/isreal/image/upload/v1685679626/calm%20waters%20project/abt_jyu5aq.jpg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685706336/calm%20waters%20project/WhatsApp_Image_2023-06-02_at_12.38.43_PM_szcc3z.jpg"
           alt="img"
           width={350}
           height={300}

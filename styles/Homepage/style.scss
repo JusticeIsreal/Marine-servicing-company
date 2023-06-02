@@ -510,7 +510,7 @@ $bg-blue: #4169e1;
     no-repeat fixed center center;
   background-size: cover;
   //   height: 720px;
-  //   background: $bg-blue;
+  background: $bg-blue;
 
   @include responsive(bigphone) {
     height: 1030px;
