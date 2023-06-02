@@ -40,8 +40,11 @@ function Navbar() {
             <Link href="/services">
               <li>Services</li>
             </Link>
+            <Link href="/projects">
+              <li>Projects</li>
+            </Link>
             <Link href="/Event">
-              <li>Our Team</li>
+              <li>Our-Team</li>
             </Link>
             <Link href="/give">
               <li>Contact</li>

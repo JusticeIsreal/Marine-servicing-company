@@ -86,4 +86,39 @@
   .body-main-con .services-con img {
     width: 45%;
   }
+}
+.body-main-con .project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.body-main-con .project-img div {
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .body-main-con .project-img div {
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .body-main-con .project-img div {
+    width: 45%;
+  }
+}
+.body-main-con .project-img div img {
+  width: 100%;
+}
+.body-main-con .project-img div h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .body-main-con .project-img div h3 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

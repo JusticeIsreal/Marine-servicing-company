@@ -126,4 +126,35 @@ $bg-blue: #4169e1;
       }
     }
   }
+
+  //   project page
+  .project-img {
+    @include flexDisplay(center, center, row);
+    flex-wrap: wrap;
+    div {
+      //   border: 2px solid red;
+      margin: 5px;
+      margin-bottom: 50px;
+      width: 100%;
+      @include responsive(bigphone) {
+        margin: 10px;
+        margin-bottom: 50px;
+      }
+      @include responsive(tablet) {
+        width: 45%;
+      }
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        text-align: center;
+        text-transform: uppercase;
+
+        @include responsive(bigphone) {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }
