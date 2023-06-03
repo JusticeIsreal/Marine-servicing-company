@@ -44,9 +44,9 @@ function Navbar() {
             <Link href="/projects">
               <li>Projects</li>
             </Link>
-            <Link href="/team">
+            {/* <Link href="/team">
               <li>Our-Team</li>
-            </Link>
+            </Link> */}
             <Link href="/contact">
               <li>Contact</li>
             </Link>
