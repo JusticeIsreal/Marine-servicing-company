@@ -36,9 +36,9 @@ function Footer() {
             <Link href="/services" className="links">
               Services
             </Link>
-            <Link href="/team" className="links">
+            {/* <Link href="/team" className="links">
               Our Team
-            </Link>
+            </Link> */}
             <Link href="/projects" className="links">
               Projects
             </Link>
