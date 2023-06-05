@@ -1,7 +1,7 @@
 const BannerImg = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680226/calm%20waters%20project/bannerimage_rjjgvg.jpg",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685682748/calm%20waters%20project/picservice4_wfjcl6.jpg",
     txt: "Logistics",
   },
   {
@@ -16,7 +16,7 @@ const BannerImg = [
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685680213/calm%20waters%20project/banner2_dylgfd.jpg",
+    img: "https://res.cloudinary.com/isreal/image/upload/v1685707525/calm%20waters%20project/offshore-and-onshore_nhvarn.jpg",
     txt: "Chandeling",
   },
   {

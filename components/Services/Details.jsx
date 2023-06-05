@@ -27,7 +27,7 @@ function Details() {
           </a>
         </div>
         <img
-          src="https://res.cloudinary.com/isreal/image/upload/v1685682756/calm%20waters%20project/picservices_dpvgru.jpg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685939722/calm%20waters%20project/WhatsApp_Image_2023-06-03_at_12.25.53_PM_pzjne1.jpg"
           alt=""
         />
       </div>
@@ -90,7 +90,7 @@ function Details() {
           </a>{" "}
         </div>
         <img
-          src="https://res.cloudinary.com/isreal/image/upload/v1685682742/calm%20waters%20project/picservice3_fp1x0j.jpg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685707525/calm%20waters%20project/offshore-and-onshore_nhvarn.jpg"
           alt=""
         />
       </div>
@@ -139,7 +139,7 @@ function Details() {
         />
       </div>
       <div className="services-con">
-        <div className="serice-detail detail2">
+        <div className="serice-detail ">
           <h1>Bunker Supply</h1>
           <p>
             We recognize the critical role of bunker fuel in maritime
@@ -156,12 +156,12 @@ function Details() {
           </a>{" "}
         </div>
         <img
-          src="https://res.cloudinary.com/isreal/image/upload/v1685679626/calm%20waters%20project/abt_jyu5aq.jpg"
+          src="https://res.cloudinary.com/isreal/image/upload/v1685706334/calm%20waters%20project/WhatsApp_Image_2023-06-02_at_12.38.21_PM_wxvwca.jpg"
           alt=""
         />
       </div>
       <div className="services-con">
-        <div className="serice-detail">
+        <div className="serice-detail detail2">
           <h1>Protective Angency</h1>
           <p>
             Calm waters is manned by some of the best hands in the industry and
