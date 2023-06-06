@@ -226,15 +226,15 @@ $bg-blue: #4169e1;
         // border: 2px solid red;
         position: absolute;
         top: 120px;
-        max-width: 400px;
+        max-width: 500px;
         padding: 5px;
 
         @include responsive(bigphone) {
-          top: 200px;
+          top: 100px;
         }
         @include responsive(desktop) {
-          top: 300px;
-          max-width: 800px;
+          top: 250px;
+          max-width: 900px;
           //   border: 2px solid red;
         }
 
@@ -246,10 +246,10 @@ $bg-blue: #4169e1;
           h1 {
             color: $bg-light;
             @include responsive(bigphone) {
-              font-size: 40px;
+              font-size: 56px;
             }
             @include responsive(desktop) {
-              font-size: 80px;
+              font-size: 100px;
             }
             span {
               color: $bg-blue;
