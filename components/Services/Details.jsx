@@ -162,7 +162,7 @@ function Details() {
       </div>
       <div className="services-con">
         <div className="serice-detail detail2">
-          <h1>Protective Angency</h1>
+          <h1>Protective Agency</h1>
           <p>
             Calm waters is manned by some of the best hands in the industry and
             empowered to take operational decisions in the overall interest of

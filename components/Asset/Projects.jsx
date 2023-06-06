@@ -11,30 +11,30 @@ const ProjectImg = [
     txt: "TRUCKING",
     type: "onshore",
   },
-  {
-    id: 100,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685710599/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.37_PM_p543rj.jpg",
-    txt: "BUNKER OPERATION",
-    type: "offshore",
-  },
-  {
-    id: 1111,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685710600/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.38_PM_1_hqelvi.jpg",
-    txt: "BUNKER OPERATION",
-    type: "offshore",
-  },
+  // {
+  //   id: 100,
+  //   img: "https://res.cloudinary.com/isreal/image/upload/v1685710599/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.37_PM_p543rj.jpg",
+  //   txt: "BUNKER OPERATION",
+  //   type: "offshore",
+  // },
+  // {
+  //   id: 1111,
+  //   img: "https://res.cloudinary.com/isreal/image/upload/v1685710600/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.38_PM_1_hqelvi.jpg",
+  //   txt: "BUNKER OPERATION",
+  //   type: "offshore",
+  // },
   {
     id: 1190,
     img: "https://res.cloudinary.com/isreal/image/upload/v1685939750/calm%20waters%20project/WhatsApp_Image_2023-06-03_at_12.28.22_PM_sesrd3.jpg",
     txt: "MARINE SECURITY",
     type: "offshore",
   },
-  {
-    id: 1121,
-    img: "https://res.cloudinary.com/isreal/image/upload/v1685710602/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.38_PM_vfgsih.jpg",
-    txt: "BUNKER OPERATION",
-    type: "offshore",
-  },
+  // {
+  //   id: 1121,
+  //   img: "https://res.cloudinary.com/isreal/image/upload/v1685710602/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.38_PM_vfgsih.jpg",
+  //   txt: "BUNKER OPERATION",
+  //   type: "offshore",
+  // },
   {
     id: 1234,
     img: "https://res.cloudinary.com/isreal/image/upload/v1685710604/calm%20waters%20project/WhatsApp_Image_2023-06-01_at_7.39.39_PM_wmvogt.jpg",

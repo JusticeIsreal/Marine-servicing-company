@@ -9,7 +9,7 @@ function Newsletter() {
     <div className="newsletter-main-con">
       <div className="newsletter-text">
         <h1>
-          24 / 7 We are avaliable to meet your needs. Contaact us today and get
+          24 / 7 We are avaliable to meet your needs. Contact us today and get
           a free quote
         </h1>
         <div className="contact">
