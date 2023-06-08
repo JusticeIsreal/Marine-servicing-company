@@ -4,18 +4,17 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     const { companyEmail, number, email, message } = req.body;
 
-    let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      service: "gmail",
-      port: 465,
-      secure: true,
-      auth: {
-        user: companyEmail,
-        pass: "oelacxlxiryawkdm",
-      },
-    });
-
     try {
+      let transporter = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        service: "gmail",
+        port: 465,
+        secure: true,
+        auth: {
+          user: companyEmail,
+          pass: "oelacxlxiryawkdm",
+        },
+      });
       // Send the email
       await transporter.sendMail({
         from: companyEmail,

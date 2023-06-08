@@ -1,24 +1,24 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 function ContactForm() {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
   const companyEmail = "Calmwatersltd@gmail.com";
-  // oelacxlxiryawkdm
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/sendEmail", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ companyEmail, number, email, message }),
+      const response = await axios.post("/api/sendEmail", {
+        companyEmail,
+        number,
+        email,
+        message,
       });
 
-      if (response.ok) {
+      if (response.status === 200) {
         // Email sent successfully
         console.log("Email sent successfully");
         setEmail("");
