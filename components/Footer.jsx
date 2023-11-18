@@ -68,8 +68,8 @@ function Footer() {
               .
             </p>
             <p className="links">
-              <b>Physical Address:</b> House 24 plot 3006 Rafiu Babatunde Tinubu
-              close Amuwo Odofin, Lagos, Nigeria
+              <b>Physical Address:</b> Suite 10, Kingdom Plaza, Plot 784, Festac
+              Link Bridge, Amuwo Odofin Lagos
             </p>
             <p className="links">(+234) 802 759 1499</p>
             <p className="links">(+234) 803 968 8200</p>
