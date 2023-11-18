@@ -13,6 +13,7 @@ function contact() {
       <Details />
       <Newsletter />
       <Footer />
+     
     </div>
   );
 }

@@ -71,7 +71,7 @@ function Footer() {
               <b>Physical Address:</b> House 24 plot 3006 Rafiu Babatunde Tinubu
               close Amuwo Odofin, Lagos, Nigeria
             </p>
-            <p className="links">(+234) 803 465 2594</p>
+            <p className="links">(+234) 802 759 1499</p>
             <p className="links">(+234) 803 968 8200</p>
           </div>
         </div>

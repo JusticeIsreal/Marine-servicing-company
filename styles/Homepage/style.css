@@ -966,4 +966,65 @@
 .footer-main-con .copyright p {
   text-align: center;
   color: white;
+}
+
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #3498db;
+  opacity: 0.8;
+  border: 1px solid #2980b9;
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+.shadow {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 70%);
+  bottom: -20px;
+  left: -20px;
+  transform: rotateX(90deg);
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */

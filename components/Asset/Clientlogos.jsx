@@ -31,6 +31,10 @@ const Clientlogos = [
     id: 8,
     logo: "https://res.cloudinary.com/isreal/image/upload/v1685737712/calm%20waters%20project/logo-dark-removebg-preview_o2lsgs.png",
   },
+  {
+    id: 9,
+    logo: "https://res.cloudinary.com/isreal/image/upload/v1700317564/calm%20waters%20project/WhatsApp_Image_2023-11-17_at_08.39.33-removebg-preview_pr7fuq.png",
+  },
 ];
 
 export default Clientlogos;

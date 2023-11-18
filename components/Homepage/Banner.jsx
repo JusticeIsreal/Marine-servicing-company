@@ -10,6 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function Banner() {
   return (
     <div className="banner-main-con">
+     
       <div className="content">
         {/* SIAPLAYING PRODUCTS IMAGES*/}
         <div className="carousel-main-con">
