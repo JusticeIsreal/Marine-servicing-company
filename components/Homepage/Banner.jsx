@@ -10,7 +10,6 @@ import { FaWhatsapp } from "react-icons/fa";
 function Banner() {
   return (
     <div className="banner-main-con">
-     
       <div className="content">
         {/* SIAPLAYING PRODUCTS IMAGES*/}
         <div className="carousel-main-con">
@@ -49,7 +48,7 @@ function Banner() {
                             <p>Click</p>
                             <ImPointRight className="icon" />
                           </div>
-                          <a target="_blank" href="tel:+2348034652594">
+                          <a target="_blank" href="tel:+2348027591499">
                             <FiPhone className="icons" />
                           </a>
                           <a
@@ -60,7 +59,7 @@ function Banner() {
                           </a>
                           <a
                             target="_blank"
-                            href="https://wa.me/+2348034652594?text= Hello ! "
+                            href="https://wa.me/+2348027591499?text= Hello ! I am"
                           >
                             <FaWhatsapp className="icons" />
                           </a>
