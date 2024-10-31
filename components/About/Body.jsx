@@ -64,7 +64,7 @@ function Body() {
           </p>
           <ol>
             <li>* Teamwork</li>
-            <li>* STenacity</li>
+            <li>* Tenacity</li>
             <li>* Time management</li>
             <li>* Transparency</li>
             <li>* Trustworthiness</li>
